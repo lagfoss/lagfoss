@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -5,15 +8,24 @@ body {
 
 header {
   width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
   display: flex;
-  justify-content: flex-start;
   height: auto;
   background-color: #000000;
 }
 
-.logo {
+.logo{
   display: flex;
   justify-content: center;
-  height: 100px;
-  z-index: 2;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.bird {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
 }
