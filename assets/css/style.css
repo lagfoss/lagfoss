@@ -2,3 +2,18 @@
 body {
   margin: 0;
 }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  background-color: #000000;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  z-index: 2;
+}
