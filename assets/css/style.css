@@ -16,16 +16,20 @@ header {
   background-color: #000000;
 }
 
-.logo{
+.landmarks {
+  position: relative;
   display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
+  width:100%;
+  top: 0;
+  right: 0;
   z-index: 1;
 }
 
-.bird {
-  width: 100%;
-  height: auto;
-  margin-top: 5px;
+.logo{
+  position: absolute;
+  display: flex;
+  width: 14%;
+  top: 5px;
+  right: 43%;
+  z-index: 2;
 }
