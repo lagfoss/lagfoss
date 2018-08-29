@@ -13,11 +13,11 @@ body {
   0% {background-position: 0 0;}
   12% {background-position: -10px 0;}
   24% {background-position: -10px -10px;}
-  36% {background-position: 0 -10px;}
-  48% {background-position: 0 0;}
+  36% {background-position: 0 0;}
+  48% {background-position: 0 -10px;}
   60% {background-position: 10px 0;}
   72% {background-position: 10px 10px;}
-  84% {background-position: 0 10px;}
+  84% {background-position: 10px 0;}
   96% {background-position: 0 0;}
 }
 
@@ -47,4 +47,66 @@ header {
   top: 5px;
   right: 43%;
   z-index: 2;
+}
+
+footer {
+  background-color: #2E8B57;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.3pt;
+  line-height: 24pt;
+  color: #fff;
+  font-weight: 300;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 235px;
+  margin: 10px auto 0px auto;
+  border: hidden;
+}
+
+.indhold {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Er blevet brugt til logo med copyright */
+.foot_logo {
+  width: 50%;
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+}
+
+.txt_under {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialmedier{
+  width: 100%;
+  text-align: right;
+}
+
+/* Er blevet brugt til alle socialemedier i footer */
+.social{
+  width: 17%;
+  height: auto;
+  margin: 0px 0 0 20px;
+}
+
+.socialmedier a:link {
+  text-decoration: none;
 }
