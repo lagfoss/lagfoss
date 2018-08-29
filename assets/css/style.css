@@ -3,7 +3,22 @@
 }
 
 body {
+  overflow: hidden;
   margin: 0;
+  background: black url(../images/ll.png) repeat 0 0;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {background-position: 0 0;}
+  12% {background-position: -10px 0;}
+  24% {background-position: -10px -10px;}
+  36% {background-position: 0 -10px;}
+  48% {background-position: 0 0;}
+  60% {background-position: 10px 0;}
+  72% {background-position: 10px 10px;}
+  84% {background-position: 0 10px;}
+  96% {background-position: 0 0;}
 }
 
 header {
@@ -13,7 +28,7 @@ header {
   top: 0;
   display: flex;
   height: auto;
-  background-color: #000000;
+  background-color: rgba(0,0,0,0.7);
 }
 
 .landmarks {
