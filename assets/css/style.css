@@ -50,17 +50,18 @@ header {
 }
 
 footer {
-  background-color: #2E8B57;
+  background-color: rgba(0,0,0,0.7);
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 1.3pt;
   line-height: 24pt;
-  color: #fff;
+  color: #2E8B57;
   font-weight: 300;
   left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
-  min-height: 235px;
+  min-height: 200px;
   margin: 10px auto 0px auto;
   border: hidden;
 }
@@ -75,7 +76,7 @@ footer {
 
 footer a{
   text-decoration: none;
-  color: #ffffff;
+  color: #2E8B57;
 }
 
 /* Er blevet brugt til logo med copyright */
@@ -97,14 +98,8 @@ footer a{
 
 .socialmedier{
   width: 100%;
+  font-size: 5vw;
   text-align: right;
-}
-
-/* Er blevet brugt til alle socialemedier i footer */
-.social{
-  width: 17%;
-  height: auto;
-  margin: 0px 0 0 20px;
 }
 
 .socialmedier a:link {
