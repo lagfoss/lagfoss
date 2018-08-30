@@ -49,6 +49,36 @@ header {
   z-index: 2;
 }
 
+nav {
+  height: 400px;
+}
+
+main {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto auto auto;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  margin-top: 40px;
+}
+
+.left, .right {
+width: 25%;
+}
+
+.middle {
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+background-color: #ffffff;
+
+}
+
 footer {
   background-color: rgba(0,0,0,0.7);
   font-family: 'Josefin Sans', sans-serif;
@@ -61,16 +91,14 @@ footer {
   right: 0;
   bottom: 0;
   width: 100%;
-  min-height: 200px;
   margin: 10px auto 0px auto;
-  border: hidden;
 }
 
 .indhold {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -105,3 +133,23 @@ footer a{
 .socialmedier a:link {
   text-decoration: none;
 }
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 720px) {
+
+  .footer_left,
+  .footer_middle,
+  .footer_right{
+    width: 32%;
+ }
+
+ .footer_left{
+   margin-right: 2%;
+ }
+
+ .footer_right{
+   margin-left: 2%;
+ }
+}
+/* Desktop Styles slut */
