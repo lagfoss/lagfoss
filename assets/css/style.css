@@ -3,7 +3,6 @@
 }
 
 body {
-  overflow: hidden;
   margin: 0;
   background: black url(../images/ll.png) repeat 0 0;
   -webkit-animation: slide 20s linear infinite;
@@ -11,13 +10,13 @@ body {
 
 @-webkit-keyframes slide {
   0% {background-position: 0 0;}
-  12% {background-position: -10px 0;}
-  24% {background-position: -10px -10px;}
-  36% {background-position: 0 0;}
-  48% {background-position: 0 -10px;}
-  60% {background-position: 10px 0;}
-  72% {background-position: 10px 10px;}
-  84% {background-position: 10px 0;}
+  12% {background-position: -10px -10px;}
+  24% {background-position: -20px 0;}
+  36% {background-position: -30px -10px;}
+  48% {background-position: -40px 0;}
+  60% {background-position: -30px -10px;}
+  72% {background-position: -20px 0;}
+  84% {background-position: -10px -10px;}
   96% {background-position: 0 0;}
 }
 
@@ -28,7 +27,7 @@ header {
   top: 0;
   display: flex;
   height: auto;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .landmarks {
@@ -80,7 +79,7 @@ background-color: #ffffff;
 }
 
 footer {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.6);
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 1.3pt;
@@ -91,6 +90,7 @@ footer {
   right: 0;
   bottom: 0;
   width: 100%;
+  height: auto;
   margin: 10px auto 0px auto;
 }
 
