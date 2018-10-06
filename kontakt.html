@@ -2,8 +2,8 @@
 <html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Lagfoss.com - Den færøske multimediedesigner</title>
-    <meta name="description" content="Portfolio hos Rani Lagfoss, færingen i Odense,
+    <title>Kvalifikationer - Lagfoss.com - Den færøske multimediedesigner</title>
+    <meta name="description" content="Her er der muligt at komme i kontakt med Rani Lagfoss,
     der studerer multimediedesign på UCL Erhvervsakademi og Professionshøjskole, og søger praktikplads">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="multimediedesigner, HTML, CSS, Lagfoss, faroes design,
@@ -54,10 +54,10 @@
         <a href="work.html"><img src="assets/images/arbejde.png" alt="Mit arbejde" class="button"/></a>
       </div>
       <div id="kontakt-button" class="button">
-        <a href="kontakt.html"><img src="assets/images/kontakt.png" alt="Kontakt" class="button"/></a>
+        <a href="kontakt.html" class="active"><img src="assets/images/kontakt.png" alt="Kontakt" class="button"/></a>
       </div>
       </div>
-      <div class="typewriter">
+      <div class="writer">
         <h1>Velkommen til Lagfoss.com</h1>
       </div>
     </nav>
@@ -66,15 +66,21 @@
       <div id="page-wrap">
         <hr class="hr1">
         <div id="content">
-          <div class="img-front">
-            <img src="assets/images/rani.jpg" alt="Rani Lagfoss">
-          </div>
-          <h2>Praktiksøgende multimediedesign studerende</h2>
-          <p>Mit navn er Rani Lagfoss, jeg studerer multimediedesign på UCL Erhvervsakademi og
-            Professionshøjskole i Odense. Og i forbindelse med det, søger jeg en praktikplads fra medio januar.
-            <br>Mine primære styrker er indenfor webdesign, front-end development og videoredigering,
-            men jeg er lærenem og klar på en udfordring.
-          </p>
+          <h2>Kontakt Lagfoss</h2>
+          <h3></h3>
+          <form class="kontakt" action="kontakt.php" method="post" name="Kontakt formular">
+
+            <div class="label">Dit navn</div>
+            <input type="text" name="navn" placeholder="Skriv dit fulde navn her..." required>
+
+            <div class="label">Din Email</div>
+            <input type="text" name="email" placeholder="Din Email..." required>
+
+            <div class="label">Besked</div>
+            <textarea type="text" name="besked" placeholder="Skriv din besked her..." required></textarea>
+
+            <button class="knap" border="none" type="submit" name="submit">Send Besked</button>
+          </form>
         </div>
       </div>
     </main>
